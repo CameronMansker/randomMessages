@@ -1,2 +1,1 @@
-Inspirational quotes about God
-
+Inspirational quotes about God that you need!
