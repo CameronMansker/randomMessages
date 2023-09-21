@@ -1,1 +1,2 @@
-Random Messages Generator
+Inspirational quotes about God
+
