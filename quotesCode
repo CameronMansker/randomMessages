@@ -28,3 +28,5 @@ for(let prop in godsMessages) {
             godsWisdom.push("something is wrong");
       }
 }
+
+console.log(godsWisdom);
