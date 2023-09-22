@@ -11,7 +11,7 @@ const godsMessages = {
 let godsWisdom = [];
 
 for(let prop in godsMessages) {
-    let index = getRandNumber(godsMessages[prop].length)
+    let index = randomGen(godsMessages[prop].length)
     
     godsWisdom
       switch(prop) {
@@ -19,7 +19,7 @@ for(let prop in godsMessages) {
             godsWisdom.push(`${godsMessages[prop][index]} will always`);
               break;
         case 'isDoing':
-            godsWisdom.push(`{godsMessages[prop][index]}`);
+            godsWisdom.push(`${godsMessages[prop][index]}`);
               break;
         case 'who':
             godsWisdom.push(`${godsMessages[prop][index]} so stay strong in him`);
@@ -29,4 +29,7 @@ for(let prop in godsMessages) {
       }
 }
 
-console.log(godsWisdom);
+const oneOutput = godsWisdom.join(" ");
+
+console.log(oneOutput);
+
