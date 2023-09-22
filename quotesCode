@@ -22,7 +22,7 @@ for(let prop in godsMessages) {
             godsWisdom.push(`${godsMessages[prop][index]}`);
               break;
         case 'who':
-            godsWisdom.push(`${godsMessages[prop][index]} so stay strong in him`);
+            godsWisdom.push(`${godsMessages[prop][index]}`);
             break
         default:
             godsWisdom.push("something is wrong");
