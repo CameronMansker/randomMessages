@@ -1,3 +1,12 @@
 const randomGen = num => {
   return Math.floor(Math.random() * num);
 };
+
+const godsMessages = {
+    god: ['The Lord', 'God', 'The Massiah', 'Jesus'],
+    isDoing: ['loves', 'cares', 'adores', 'protects', 'strengthens'],
+    who: ['you', 'your mom', 'your friends', 'your family', 'your dad', 'your pastor'],
+};
+
+let godsWisdom = [];
+
