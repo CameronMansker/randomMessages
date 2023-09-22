@@ -4,9 +4,27 @@ const randomGen = num => {
 
 const godsMessages = {
     god: ['The Lord', 'God', 'The Massiah', 'Jesus'],
-    isDoing: ['loves', 'cares', 'adores', 'protects', 'strengthens'],
+    isDoing: ['love', 'care', 'adore', 'protect', 'strengthen'],
     who: ['you', 'your mom', 'your friends', 'your family', 'your dad', 'your pastor'],
 };
 
 let godsWisdom = [];
 
+for(let prop in godsMessages) {
+    let index = getRandNumber(godsMessages[prop].length)
+    
+    godsWisdom
+      switch(prop) {
+        case 'god':
+            godsWisdom.push(`${godsMessages[prop][index]} will always`);
+              break;
+        case 'isDoing':
+            godsWisdom.push(`{godsMessages[prop][index]}`);
+              break;
+        case 'who':
+            godsWisdom.push(`${godsMessages[prop][index]} so stay strong in him`);
+            break
+        default:
+            godsWisdom.push("something is wrong");
+      }
+}
