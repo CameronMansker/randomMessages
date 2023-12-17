@@ -3,8 +3,8 @@ const randomGen = num => {
 };
 
 const godsMessages = {
-    god: ['The Lord', 'God', 'The Massiah', 'Jesus'],
-    isDoing: ['love', 'care', 'adore', 'protect', 'strengthen'],
+    god: ['The Lord', 'God', 'Yaweh', 'Jesus'],
+    isDoing: ['love', 'care about', 'adore', 'protect', 'strengthen'],
     who: ['you', 'your mom', 'your friends', 'your family', 'your dad', 'your pastor'],
 };
 
